@@ -1,0 +1,13 @@
+
+
+<div *ngIf="blogList && blogList.length > 0">
+    <ang-data-table [data]='blogList' [itemPerPage]='dataPerPage'>
+    </ang-data-table>
+    </div>
+
+    <div>
+    <a href="/blogs" (click)="goBlogs()">Write Blogs Here</a> 
+
+</div>
+
+   
